@@ -18,7 +18,7 @@ Kein vollständiges Pitch-Video mit Sprache/Text als dekorative Schleife verwend
 
 ## Bildintegration
 
-Studio-Porträt im Einstieg, Kundengespräch beim Beratungsfeld, Projektbesprechung bei Koordination, Naturmotiv beim persönlichen Abschnitt. Die drei Szenenmotive sind klein und ruhig integriert. Smartphone: Bilder nicht über Text legen, Motivproportionen und Gesichter erhalten. Originale PNGs archivieren, WebP-Versionen zum Laden verwenden.
+Studio-Porträt im Einstieg, Kundengespräch beim Beratungsfeld, gemeinsame Arbeit am digitalen Ablauf bei Digitalisierung und Prozessen, Projektbesprechung bei Koordination, Naturmotiv beim persönlichen Abschnitt. Die vier Szenenmotive sind klein und ruhig integriert. Smartphone: Bilder nicht über Text legen, Motivproportionen und Gesichter erhalten. Originale PNGs archivieren, WebP-Versionen zum Laden verwenden.
 
 ## Prüfung
 

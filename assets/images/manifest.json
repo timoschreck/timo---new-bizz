@@ -57,6 +57,20 @@
       "sha256_web": "7e03e14d54b5eae9db5610280942a2a0f2c12eac66e125c726aa46dcfeef4303",
       "sha256_web_before_recovery": "90a8ae8d0a0bd83e0b2fac74d412985cbfc31f5342e2803a9c328b7f8a09c009",
       "web_recovery_note": "Am 01.10.2026 aus bytegenau wiederhergestelltem Original neu erzeugt; Pillow Qualität 86. Frühere WebP-Prüfsumme als Herkunftshinweis erhalten."
+    },
+    {
+      "id": "timo-schreck-digitalisierung",
+      "original": "assets/images/originals/timo-schreck-digitalisierung.png",
+      "web": "assets/images/web/timo-schreck-digitalisierung.webp",
+      "width": 1536,
+      "height": 1024,
+      "role": "Digitalisierung und Prozesse",
+      "status": "generated_on_user_request",
+      "generated": true,
+      "sha256_original": "022f39ca25d0256d9b9f4000d50b69843edd1470f7f05c1fd4cf175c61b8314a",
+      "sha256_web": "dfee99235e118a781ec5cac5d2c70cb641a2df70a9815fdc36a665cdc2687009",
+      "prompt": "docs/design/bild-digitalisierung-prompt.txt",
+      "generated_on": "2026-10-01"
     }
   ]
 }

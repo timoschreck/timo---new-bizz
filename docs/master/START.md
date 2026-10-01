@@ -24,3 +24,7 @@ Interne Vertiefung: docs/konzept/gesamtmaster.md. Dieser Inhalt ist kein vollst�
 Konzept in Fachbereiche geordnet, Masterprompt erstellt, freigegebene Bilder gesichert und in Seitenvorschau integriert, DIR4B-Designquellen kopiert. Lokale Prüfung siehe docs/umsetzung/VALIDIERUNG.md.
 
 Nächster Schritt: Namen und öffentliche Kontaktwege festlegen, Kanäle erstellen/anbinden; anschließend Seite und rechtliche Angaben für die Veröffentlichung vervollständigen. Sichtvergleich mit Pitch-Video bleibt offen.
+
+## Ergänzung: Digitalisierung und Prozesse
+
+Am 01.10.2026 auf Nutzerwunsch ein fünftes Bild generiert und in die zweite Leistungskarte integriert: Timo mit einer Kundin am Bildschirm bei der Besprechung eines digitalen Ablaufs. Original und WebP gesichert; Prompt und SHA256 im Bildregister dokumentiert. Die vier früheren Originalbilder bleiben unverändert.
