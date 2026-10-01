@@ -1,0 +1,85 @@
+{
+  "source_repository": "timoschreck/nexovia-future",
+  "source_main": "9722559656d4967b87052354ebc7bccf13c43ec1",
+  "observed_on": "2026-10-01",
+  "ci_copy": "selected_files_unchanged_not_full_product_clone",
+  "master_readonly": {
+    "pr": 67,
+    "head": "a56401f80f9f06c02ff591ddbbad45b82e83c058",
+    "continuity_revision": 44,
+    "last_event": "HETZNER-V2-OBSERVATION-2026-10-01",
+    "next_action": "T3-RUNTIME-01 remains in existing DIR4B workflow"
+  },
+  "files": [
+    {
+      "source": "tokens/nexovia_design_tokens.css",
+      "destination": "vendor/dir4b/tokens/nexovia_design_tokens.css",
+      "git_blob_sha": "780f07f74fc328718fd8e49f4be8a64243ad5641",
+      "source_ref": "9722559656d4967b87052354ebc7bccf13c43ec1"
+    },
+    {
+      "source": "tokens/nexovia_design_tokens.json",
+      "destination": "vendor/dir4b/tokens/nexovia_design_tokens.json",
+      "git_blob_sha": "451229739660aa1cc4c1a943e74a0699b148dd64",
+      "source_ref": "9722559656d4967b87052354ebc7bccf13c43ec1"
+    },
+    {
+      "source": "docs/brand/dir4b-brand-v1.md",
+      "destination": "vendor/dir4b/docs/dir4b-brand-v1.md",
+      "git_blob_sha": "67c9e29de8227a5b7bc00ee6e9e5120edd835f95",
+      "source_ref": "9722559656d4967b87052354ebc7bccf13c43ec1"
+    },
+    {
+      "source": "docs/brand/dir4b-brand-v1.json",
+      "destination": "vendor/dir4b/docs/dir4b-brand-v1.json",
+      "git_blob_sha": "522164ebfc3dccb9b3e8fd87f0f38ea182cabe50",
+      "source_ref": "9722559656d4967b87052354ebc7bccf13c43ec1"
+    },
+    {
+      "source": "assets/backgrounds/nexovia_cosmic_background_animated.svg",
+      "destination": "vendor/dir4b/backgrounds/nexovia_cosmic_background_animated.svg",
+      "git_blob_sha": "cfe94d45cce514fa492e906abd24a8be43f652fc",
+      "source_ref": "9722559656d4967b87052354ebc7bccf13c43ec1"
+    },
+    {
+      "source": "assets/logos/dir4b/v1/dir4b_logo_horizontal_dark.svg",
+      "destination": "vendor/dir4b/logos/dir4b_logo_horizontal_dark.svg",
+      "git_blob_sha": "261e5177c46d8dcb729e6c0b9d5853767873ef66",
+      "source_ref": "9722559656d4967b87052354ebc7bccf13c43ec1"
+    },
+    {
+      "source": "assets/logos/dir4b/v1/dir4b_logo_horizontal_light.svg",
+      "destination": "vendor/dir4b/logos/dir4b_logo_horizontal_light.svg",
+      "git_blob_sha": "e97f0ae2adb0cfa35a009eb832c2a78a321c054b",
+      "source_ref": "9722559656d4967b87052354ebc7bccf13c43ec1"
+    },
+    {
+      "source": "assets/logos/dir4b/v1/dir4b_logo_icon_dark.svg",
+      "destination": "vendor/dir4b/logos/dir4b_logo_icon_dark.svg",
+      "git_blob_sha": "951aed474cf8bef9fb296d681fce5f7b45e71e95",
+      "source_ref": "9722559656d4967b87052354ebc7bccf13c43ec1"
+    },
+    {
+      "source": "assets/logos/dir4b/v1/dir4b_favicon.svg",
+      "destination": "vendor/dir4b/logos/dir4b_favicon.svg",
+      "git_blob_sha": "7bd308c43f669b9053a4cc84bdbb8133171c76fd",
+      "source_ref": "9722559656d4967b87052354ebc7bccf13c43ec1"
+    }
+  ],
+  "pitch_reference": {
+    "pr": 77,
+    "head": "87a300321ac91df50cd54bb0d292fac921471d52",
+    "path": "web/media/dir4b-pitch-final.mp4",
+    "blob_sha": "0172e9f230224b5923d464cf800cad1fa1454f96",
+    "size": 10096011,
+    "visual_review": "NOT_COMPLETED_BINARY_ACCESS_UNAVAILABLE",
+    "url": "https://github.com/timoschreck/nexovia-future/blob/87a300321ac91df50cd54bb0d292fac921471d52/web/media/dir4b-pitch-final.mp4"
+  },
+  "derived": [
+    {
+      "path": "assets/backgrounds/dir4b-cosmic-static.svg",
+      "from": "vendor/dir4b/backgrounds/nexovia_cosmic_background_animated.svg",
+      "change": "remove animation styles for static fallback"
+    }
+  ]
+}

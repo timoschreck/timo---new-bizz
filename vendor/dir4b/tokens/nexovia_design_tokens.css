@@ -1,0 +1,21 @@
+:root {
+ --nx-color-bg-primary:#01091D; --nx-color-surface-primary:#0C1033;
+ --nx-color-brand-cyan:#00C8FF; --nx-color-brand-violet:#AE00FF;
+ --nx-color-accent-magenta:#FF70D4; --nx-color-text-primary:#F4F6FA;
+ --nx-color-text-secondary:#A9B8D0; --nx-color-success:#37D69B;
+ --nx-color-info:#45A3FF; --nx-color-warning:#F5B942; --nx-color-error:#FF5D73;
+ --nx-gradient-primary:linear-gradient(135deg,#00C8FF 0%,#256BFF 52%,#AE00FF 100%);
+ --nx-gradient-cyan-magenta:linear-gradient(120deg,#00C8FF 0%,#FF70D4 100%);
+ --nx-gradient-violet-magenta:linear-gradient(135deg,#AE00FF 0%,#FF70D4 100%);
+ --nx-gradient-dark:linear-gradient(145deg,#01091D 0%,#0C1033 70%,#151046 100%);
+ --nx-radius-button:14px; --nx-radius-card:16px; --nx-radius-large:18px;
+ --nx-shadow-card:0 16px 48px rgba(0,0,0,.24); --nx-shadow-focus:0 0 0 3px rgba(0,200,255,.42);
+ --nx-space-4:4px; --nx-space-8:8px; --nx-space-16:16px; --nx-space-24:24px;
+ --nx-space-32:32px; --nx-space-48:48px; --nx-space-64:64px; --nx-space-96:96px;
+ --nx-font-display:Orbitron,"Bank Gothic",Eurostile,sans-serif;
+ --nx-font-body:Inter,Aptos,Arial,sans-serif;
+ --nx-motion-fast:140ms; --nx-motion-standard:240ms; --nx-motion-slow:480ms;
+}
+[data-theme="light"] { --nx-color-bg-primary:#F4F6FA; --nx-color-surface-primary:#FFFFFF; --nx-color-text-primary:#01091D; --nx-color-text-secondary:#4D5C78; }
+*:focus-visible { outline:3px solid var(--nx-color-brand-cyan); outline-offset:3px; }
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
