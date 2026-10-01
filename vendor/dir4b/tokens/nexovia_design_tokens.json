@@ -1,0 +1,188 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "color": {
+    "brand": {
+      "sternen-schwarz": {
+        "$type": "color",
+        "$value": "#01091D"
+      },
+      "nachthimmel-blau": {
+        "$type": "color",
+        "$value": "#0C1033"
+      },
+      "cyan-sky": {
+        "$type": "color",
+        "$value": "#00C8FF"
+      },
+      "violett-core": {
+        "$type": "color",
+        "$value": "#AE00FF"
+      },
+      "magenta-pulse": {
+        "$type": "color",
+        "$value": "#FF70D4"
+      },
+      "nebelgrau": {
+        "$type": "color",
+        "$value": "#F4F6FA"
+      },
+      "mondschein-blau": {
+        "$type": "color",
+        "$value": "#A9B8D0"
+      },
+      "weiss": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "erfolg": {
+        "$type": "color",
+        "$value": "#37D69B"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "#45A3FF"
+      },
+      "warnung": {
+        "$type": "color",
+        "$value": "#F5B942"
+      },
+      "fehler": {
+        "$type": "color",
+        "$value": "#FF5D73"
+      },
+      "deaktiviert": {
+        "$type": "color",
+        "$value": "#66738F"
+      }
+    },
+    "semantic": {
+      "dark": {
+        "background": {
+          "$value": "#01091D"
+        },
+        "surface": {
+          "$value": "#0C1033"
+        },
+        "text": {
+          "$value": "#F4F6FA"
+        },
+        "muted": {
+          "$value": "#A9B8D0"
+        }
+      },
+      "light": {
+        "background": {
+          "$value": "#F4F6FA"
+        },
+        "surface": {
+          "$value": "#FFFFFF"
+        },
+        "text": {
+          "$value": "#01091D"
+        },
+        "muted": {
+          "$value": "#4D5C78"
+        }
+      }
+    }
+  },
+  "space": {
+    "4": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "48": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "64": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "96": {
+      "$type": "dimension",
+      "$value": "96px"
+    },
+    "128": {
+      "$type": "dimension",
+      "$value": "128px"
+    }
+  },
+  "radius": {
+    "button": {
+      "$value": "14px"
+    },
+    "card": {
+      "$value": "16px"
+    },
+    "large": {
+      "$value": "18px"
+    },
+    "pill": {
+      "$value": "999px"
+    }
+  },
+  "shadow": {
+    "card": {
+      "$value": "0 16px 48px rgba(0,0,0,.24)"
+    },
+    "focus": {
+      "$value": "0 0 0 3px rgba(0,200,255,.42)"
+    }
+  },
+  "font": {
+    "display": {
+      "$value": "Orbitron, Bank Gothic, Eurostile, sans-serif"
+    },
+    "body": {
+      "$value": "Inter, Aptos, Arial, sans-serif"
+    }
+  },
+  "breakpoint": {
+    "360": {
+      "$value": "360px"
+    },
+    "768": {
+      "$value": "768px"
+    },
+    "1024": {
+      "$value": "1024px"
+    },
+    "1440": {
+      "$value": "1440px"
+    }
+  },
+  "z": {
+    "base": {
+      "$value": 0
+    },
+    "sticky": {
+      "$value": 20
+    },
+    "overlay": {
+      "$value": 40
+    },
+    "modal": {
+      "$value": 60
+    },
+    "toast": {
+      "$value": 80
+    }
+  }
+}

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid slice">
+  <title id="title">DIR4B animierter kosmischer Hintergrund</title>
+  <desc id="desc">Dunkler DIR4B-Hintergrund mit dezenten Cyan-, Violett- und Magenta-Nebeln, Sternen, Orbitlinien und Datenpunkten.</desc>
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#01091D"/>
+      <stop offset="0.56" stop-color="#07112B"/>
+      <stop offset="1" stop-color="#0C1033"/>
+    </linearGradient>
+    <radialGradient id="nebulaCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#00C8FF" stop-opacity="0.42"/>
+      <stop offset="0.35" stop-color="#256BFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#01091D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#AE00FF" stop-opacity="0.30"/>
+      <stop offset="0.42" stop-color="#4A2DFF" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#01091D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaMagenta" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FF70D4" stop-opacity="0.18"/>
+      <stop offset="0.46" stop-color="#AE00FF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#01091D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="0.18" stop-color="#8BE6FF" stop-opacity="0.95"/>
+      <stop offset="0.48" stop-color="#00C8FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00C8FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur80" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="80"/></filter>
+    <filter id="blur36" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="36"/></filter>
+    <filter id="glow" x="-200%" y="-200%" width="400%" height="400%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      #nebula-a{animation:driftA 42s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+      #nebula-b{animation:driftB 52s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+      #nebula-c{animation:driftC 60s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+      .orbit-flow{stroke-dasharray:5 16;animation:orbitFlow 28s linear infinite}
+      .orbit-flow.slow{animation-duration:44s;animation-direction:reverse}
+      .star{animation:twinkle 5.6s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+      .star:nth-of-type(3n){animation-delay:-1.8s;animation-duration:7.2s}
+      .star:nth-of-type(4n){animation-delay:-3.4s;animation-duration:4.8s}
+      .node{animation:nodePulse 4.8s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+      .node:nth-of-type(2n){animation-delay:-2.1s}
+      @keyframes driftA{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-28px,18px) scale(1.035)}}
+      @keyframes driftB{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(24px,-14px) scale(1.025)}}
+      @keyframes driftC{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-18px,-20px) scale(1.04)}}
+      @keyframes orbitFlow{to{stroke-dashoffset:-210}}
+      @keyframes twinkle{0%,100%{opacity:.42;transform:scale(.86)}50%{opacity:1;transform:scale(1.18)}}
+      @keyframes nodePulse{0%,100%{opacity:.62;transform:scale(.9)}50%{opacity:1;transform:scale(1.25)}}
+      @media (prefers-reduced-motion:reduce){#nebula-a,#nebula-b,#nebula-c,.orbit-flow,.star,.node{animation:none!important}}
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#space)"/>
+  <rect width="1920" height="1080" fill="#01091D" opacity="0.18"/>
+
+  <g id="nebula-a" opacity="0.9">
+    <ellipse cx="1510" cy="205" rx="410" ry="300" fill="url(#nebulaCyan)" filter="url(#blur80)"/>
+    <ellipse cx="1640" cy="275" rx="250" ry="185" fill="url(#nebulaViolet)" filter="url(#blur36)"/>
+  </g>
+  <g id="nebula-b" opacity="0.78">
+    <ellipse cx="260" cy="825" rx="430" ry="300" fill="url(#nebulaCyan)" filter="url(#blur80)"/>
+    <ellipse cx="390" cy="900" rx="270" ry="200" fill="url(#nebulaMagenta)" filter="url(#blur36)"/>
+  </g>
+  <g id="nebula-c" opacity="0.72">
+    <ellipse cx="1420" cy="860" rx="390" ry="250" fill="url(#nebulaViolet)" filter="url(#blur80)"/>
+    <ellipse cx="1280" cy="800" rx="260" ry="175" fill="url(#nebulaCyan)" filter="url(#blur36)"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M-220 235 C 250 50, 650 65, 995 255" stroke="#00C8FF" stroke-opacity="0.34" stroke-width="1.4"/>
+    <path class="orbit-flow" d="M-180 300 C 280 110, 690 135, 1035 315" stroke="#00C8FF" stroke-opacity="0.48" stroke-width="1.8"/>
+    <path d="M1290 -160 C 1780 40, 2025 315, 2100 715" stroke="#AE00FF" stroke-opacity="0.30" stroke-width="1.4"/>
+    <path class="orbit-flow slow" d="M1350 -120 C 1790 90, 1990 370, 2035 795" stroke="#00C8FF" stroke-opacity="0.42" stroke-width="1.6"/>
+    <path d="M-150 925 C 200 700, 510 700, 780 900" stroke="#AE00FF" stroke-opacity="0.22" stroke-width="1.2"/>
+  </g>
+
+  <g opacity="0.76" fill="#A9B8D0">
+    <circle cx="95" cy="92" r="1.2"/><circle cx="182" cy="160" r="1.5"/><circle cx="286" cy="96" r="1.1"/><circle cx="368" cy="222" r="1.4"/>
+    <circle cx="470" cy="126" r="1.1"/><circle cx="558" cy="238" r="1.6"/><circle cx="645" cy="96" r="1.2"/><circle cx="732" cy="186" r="1.1"/>
+    <circle cx="845" cy="108" r="1.4"/><circle cx="910" cy="242" r="1.1"/><circle cx="1018" cy="152" r="1.5"/><circle cx="1110" cy="78" r="1.2"/>
+    <circle cx="1218" cy="258" r="1.3"/><circle cx="1320" cy="132" r="1.5"/><circle cx="1444" cy="92" r="1.1"/><circle cx="1558" cy="162" r="1.4"/>
+    <circle cx="1690" cy="112" r="1.2"/><circle cx="1820" cy="210" r="1.5"/><circle cx="122" cy="372" r="1.2"/><circle cx="250" cy="458" r="1.4"/>
+    <circle cx="390" cy="350" r="1.2"/><circle cx="510" cy="438" r="1.6"/><circle cx="638" cy="364" r="1.1"/><circle cx="770" cy="466" r="1.4"/>
+    <circle cx="902" cy="346" r="1.2"/><circle cx="1040" cy="432" r="1.5"/><circle cx="1172" cy="360" r="1.1"/><circle cx="1310" cy="470" r="1.4"/>
+    <circle cx="1448" cy="352" r="1.3"/><circle cx="1588" cy="426" r="1.5"/><circle cx="1730" cy="366" r="1.1"/><circle cx="1858" cy="486" r="1.4"/>
+    <circle cx="82" cy="632" r="1.2"/><circle cx="218" cy="716" r="1.5"/><circle cx="350" cy="602" r="1.1"/><circle cx="498" cy="684" r="1.3"/>
+    <circle cx="626" cy="590" r="1.5"/><circle cx="764" cy="704" r="1.1"/><circle cx="892" cy="610" r="1.4"/><circle cx="1038" cy="692" r="1.2"/>
+    <circle cx="1182" cy="596" r="1.5"/><circle cx="1326" cy="708" r="1.1"/><circle cx="1476" cy="606" r="1.4"/><circle cx="1614" cy="694" r="1.2"/>
+    <circle cx="1758" cy="612" r="1.5"/><circle cx="1860" cy="742" r="1.1"/><circle cx="126" cy="922" r="1.3"/><circle cx="284" cy="1002" r="1.5"/>
+    <circle cx="440" cy="890" r="1.1"/><circle cx="602" cy="990" r="1.4"/><circle cx="770" cy="884" r="1.2"/><circle cx="946" cy="1008" r="1.5"/>
+    <circle cx="1114" cy="904" r="1.1"/><circle cx="1288" cy="994" r="1.4"/><circle cx="1472" cy="912" r="1.2"/><circle cx="1646" cy="1000" r="1.5"/>
+    <circle cx="1812" cy="910" r="1.1"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle class="star" cx="210" cy="244" r="5.5" fill="url(#starGlow)"/>
+    <circle class="star" cx="514" cy="148" r="4.6" fill="url(#starGlow)"/>
+    <circle class="star" cx="936" cy="302" r="5.2" fill="url(#starGlow)"/>
+    <circle class="star" cx="1438" cy="164" r="7.4" fill="url(#starGlow)"/>
+    <circle class="star" cx="1774" cy="338" r="5.4" fill="url(#starGlow)"/>
+    <circle class="star" cx="322" cy="736" r="7.8" fill="url(#starGlow)"/>
+    <circle class="star" cx="708" cy="622" r="4.8" fill="url(#starGlow)"/>
+    <circle class="star" cx="1124" cy="748" r="5.6" fill="url(#starGlow)"/>
+    <circle class="star" cx="1518" cy="824" r="6.2" fill="url(#starGlow)"/>
+    <circle class="star" cx="1780" cy="690" r="4.6" fill="url(#starGlow)"/>
+  </g>
+
+  <g fill="#00C8FF" filter="url(#glow)">
+    <circle class="node" cx="412" cy="118" r="4"/>
+    <circle class="node" cx="702" cy="178" r="3.5"/>
+    <circle class="node" cx="1548" cy="80" r="4"/>
+    <circle class="node" cx="1890" cy="474" r="3.5"/>
+  </g>
+  <g fill="#AE00FF" filter="url(#glow)">
+    <circle class="node" cx="226" cy="808" r="4"/>
+    <circle class="node" cx="612" cy="836" r="3.5"/>
+    <circle class="node" cx="1710" cy="766" r="4"/>
+  </g>
+
+  <rect width="1920" height="1080" fill="#01091D" opacity="0.10"/>
+</svg>

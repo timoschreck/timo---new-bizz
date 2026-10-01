@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "brand_version": "1.1.0",
+  "effective_date": "2026-09-05",
+  "name": "DIR4B",
+  "chatgpt_project": "dir4b STARTUP",
+  "repository": "timoschreck/nexovia-future",
+  "primary_claim": "Business, Intelligently Orchestrated.",
+  "claims": [
+    {
+      "id": "premium",
+      "text": "Business, Intelligently Orchestrated.",
+      "use": "Dachmarke",
+      "source": "chat:6a9c4021-7bb0-83eb-b994-1dc5fcb1aabf/turn:bbb211ba-36e0-42ca-84cd-c39b2d203f02",
+      "approval": "Nutzerauswahl: Okay, wir nehmen die Eins. Die vorherige Rangliste nennt exakt diesen Claim als Nummer 1.",
+      "status": "freigegeben gemäß dokumentiertem Beleg"
+    },
+    {
+      "id": "product",
+      "text": "Eine Basis. Genau die Module, die du brauchst.",
+      "use": "Produkt und modulare Architektur",
+      "source": "README.md und docs/nexovia_masterprompt_corporate_identity.md Abschnitt 5 auf b48b94790b2b8d21b48c3abce34333d349179e56",
+      "approval": "Auf main als verbindlicher Leitclaim dokumentiert; Übernahme gemäß Umstellungsauftrag.",
+      "status": "freigegeben gemäß dokumentiertem Beleg"
+    },
+    {
+      "id": "integration",
+      "text": "Was zusammengehört, arbeitet zusammen.",
+      "use": "Integration und Datenfluss",
+      "source": "README.md und docs/nexovia_masterprompt_corporate_identity.md Abschnitt 5 auf b48b94790b2b8d21b48c3abce34333d349179e56",
+      "approval": "Auf main als verbindlicher Leitclaim dokumentiert; Übernahme gemäß Umstellungsauftrag.",
+      "status": "freigegeben gemäß dokumentiertem Beleg"
+    },
+    {
+      "id": "growth",
+      "text": "Einfach starten. Modular wachsen.",
+      "use": "Einführung und Wachstum",
+      "source": "README.md und docs/nexovia_masterprompt_corporate_identity.md Abschnitt 5 auf b48b94790b2b8d21b48c3abce34333d349179e56",
+      "approval": "Auf main als verbindlicher Leitclaim dokumentiert; Übernahme gemäß Umstellungsauftrag.",
+      "status": "freigegeben gemäß dokumentiertem Beleg"
+    }
+  ],
+  "domains": [
+    {
+      "name": "dir4b.de",
+      "provider": "ALL-INKL",
+      "order": "bestellt als kostenlose Inklusivdomain",
+      "registration": "nicht bestätigt"
+    },
+    {
+      "name": "dir4b.com",
+      "provider": "ALL-INKL",
+      "order": "bestellt als kostenlose Inklusivdomain",
+      "registration": "nicht bestätigt"
+    },
+    {
+      "name": "dir4b.eu",
+      "provider": "ALL-INKL",
+      "order": "bestellt als kostenlose Inklusivdomain",
+      "registration": "nicht bestätigt"
+    }
+  ],
+  "domain_source": "Aktueller Nutzerauftrag; bestätigt durch Domaincheck DIR4B fortsetzen, 6a9c5349-0a18-83eb-bce1-2698b0a34dec. Kein erneuter Registrar-Livecheck in dieser Umstellung.",
+  "colors": {
+    "black": "#01091D",
+    "navy": "#0C1033",
+    "cyan": "#00C8FF",
+    "blue": "#256BFF",
+    "violet": "#AE00FF",
+    "magenta": "#FF70D4",
+    "fog": "#F4F6FA",
+    "moon": "#A9B8D0"
+  },
+  "typography": {
+    "display": "Orbitron, Bank Gothic, Eurostile, sans-serif",
+    "body": "Inter, Aptos, Arial, sans-serif",
+    "wordmark": "Eigene geometrische SVG-Pfade",
+    "claim_export": "Arial als dokumentierter CI-Fallback, in feste SVG-Pfade umgewandelt; Wortlaut und Pfadquelle versioniert in claim-outlines-v1.json"
+  },
+  "logo_root": "assets/logos/dir4b/v1",
+  "horizontal_lockup": {
+    "first_letter": "D-Bildzeichen",
+    "continuation": "IR4B",
+    "canonical_text": "DIR4B",
+    "source": "Nutzerwunsch vom 05.09.2026: Einzellogo D und danach direkt IR4B; kein doppeltes D."
+  },
+  "logo_status": "DIR4B-Entwurf und technische Masterdateien; keine rechtliche Markenfreigabe",
+  "excluded": [
+    "DVB als Markenname",
+    "ungewählte Claim-Vorschläge",
+    "NEXT + VIA als DIR4B-Namensherleitung",
+    "unbestätigte Domain als aktive Kontakt- oder Canonical-Adresse"
+  ],
+  "technical_compatibility": [
+    "Repositoryname nexovia-future",
+    "C-Pfade gemäß docs/brand/dir4b-path-migration.json",
+    "nx-* CSS-Bezeichner",
+    "geplante Rolle nexovia_admin bis zur gesonderten Backend-Migration"
+  ],
+  "reference_version": "1.3.0",
+  "updated_at": "2026-09-09",
+  "spelling": {
+    "canonical": "DIR4B",
+    "case": "Großbuchstaben; Ziffer 4",
+    "status": "belegt"
+  },
+  "logo_variants": {
+    "layouts": [
+      "horizontal",
+      "stacked",
+      "icon"
+    ],
+    "styles": [
+      "dark",
+      "light",
+      "mono-white",
+      "mono-dark",
+      "mono-cyan",
+      "mono-violet"
+    ],
+    "claim_ids": [
+      "premium",
+      "product",
+      "integration",
+      "growth"
+    ],
+    "icon_claims": false,
+    "status": "technisch vorhanden; rechtliche Freigabe offen"
+  },
+  "asset_paths": {
+    "logos": "assets/logos/dir4b/v1",
+    "manifest": "docs/brand/dir4b-asset-manifest-v1.json",
+    "claim_outlines": "assets/logos/dir4b/claim-outlines-v1.json",
+    "tokens_json": "tokens/nexovia_design_tokens.json",
+    "tokens_css": "tokens/nexovia_design_tokens.css",
+    "web_css": "web/nexovia_web_ui.css",
+    "background": "assets/backgrounds/nexovia_cosmic_background_animated.svg",
+    "homepage": "web/dir4b_startseite_responsive.html",
+    "brandbook": "docs/dir4b_brandbook_v1.pdf"
+  },
+  "sources": [
+    {
+      "id": "identity",
+      "reference": "Nutzerauftrag zur DIR4B-Synchronisation vom 2026-09-05",
+      "status": "belegt",
+      "scope": "Name, Projekt, Domain-Bestellung; Registrierung nicht bestätigt"
+    },
+    {
+      "id": "claims",
+      "reference": "Einzelbelege in claims[].source und claims[].approval",
+      "status": "im Repository dokumentiert",
+      "scope": "Wortlaut und Verwendungszweck; Originalgespräche in diesem Arbeitspaket nicht erneut geprüft"
+    },
+    {
+      "id": "visual",
+      "reference": "docs/brand/dir4b-brand-v1.md und Design-Tokens auf main 19bd8032fb8b79b4187014e1b3e10845cd70b162",
+      "status": "technisch abgeglichen",
+      "scope": "bestehende Farben, Typografie und Logo-Varianten; Rechteprüfung offen"
+    },
+    {
+      "id": "website-contact-2026-09-09",
+      "reference": "Timo Schreck, Nutzerangabe vom 09.09.2026; docs/website/dir4b-contact-v1.json",
+      "status": "Nutzerangabe bestätigt; technische und rechtliche Prüfungen offen",
+      "scope": "Websitehost .ai und Kontaktquelle; keine Änderung der Claims oder der Bestell-/Registrierungsstände von .de/.com/.eu"
+    }
+  ],
+  "contact_reference": "docs/website/dir4b-contact-v1.json",
+  "website": {
+    "hostname": "www.dir4b.ai",
+    "status": "durch Nutzer als Website bestimmt; technische Verifikation offen",
+    "source": "Timo Schreck, Nutzerangabe vom 09.09.2026; docs/website/dir4b-contact-v1.json",
+    "registration_dns_tls_verified": false,
+    "publication_status": "interne Vorschau; keine Produktivfreigabe"
+  }
+}

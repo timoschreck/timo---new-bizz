@@ -1,0 +1,30 @@
+{
+  "workingName": "Timo Schreck",
+  "finalName": null,
+  "domain": null,
+  "locale": "de",
+  "publicationStatus": "preview",
+  "contacts": {
+    "form": {
+      "enabled": false,
+      "target": null
+    },
+    "email": {
+      "enabled": false,
+      "target": null
+    },
+    "phone": {
+      "enabled": false,
+      "target": null
+    },
+    "calendar": {
+      "enabled": false,
+      "target": null
+    }
+  },
+  "legal": {
+    "operatorVerified": false,
+    "imprintReady": false,
+    "privacyReady": false
+  }
+}

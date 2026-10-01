@@ -1,0 +1,34 @@
+{
+  "name": "timo4B",
+  "personalName": "Timo Schreck",
+  "version": "Logo-Entwurf v2: kompaktes Zeichen T4B",
+  "date": "2026-10-01",
+  "nameApproval": "Nutzer: timo4B - go",
+  "logoApproval": "Entwurf zur Sichtung; keine gesonderte grafische Abnahme behauptet",
+  "palette": {
+    "navy": "#01091D",
+    "white": "#F4F6FA",
+    "cyan": "#00C8FF",
+    "blue": "#256BFF",
+    "violet": "#AE00FF"
+  },
+  "design": "Wortmarke unverändert. Kompaktes Zeichen T4B: T und B weiß, 4 im Cyan-Blau-Violett-Verlauf, Navy-Hintergrund.",
+  "construction": "Native SVG-Vektoren; Segoe UI Semibold über lokale Windows-Zeichenpfade in Konturen umgewandelt. Keine externen Schriftdateien notwendig. Kein KI-generiertes Rasterlogo.",
+  "files": {
+    "timo4b-dark.png": "48bdeda6e0c1cfdd9b5be662a27ef7c8c4e58318e30f9ac07671258479f4f4dd",
+    "timo4b-dark.svg": "dfc01d67bc26bc138daaffd84381ce8464f70ae55215021d25ad7076eac6f7f5",
+    "timo4b-icon.png": "ccc0868b78ecde1be5015fd4cdcdf41dd5097e06bc87f665760c6d6c501c21ad",
+    "timo4b-icon.svg": "b14d6ae0bb337f054006ed78707154e03b7122e7af7edc3d2be980819948fd03",
+    "timo4b-light.png": "e8387e1a57e075481004d7c961300d6833a6ea3899dbd65ea6b5aacd527f0fea",
+    "timo4b-light.svg": "b960dae2376c8869b1816cb3d0370096283574da90ed91debdd2042022fc12af",
+    "timo4b-logo-uebersicht.png": "2b707400ab80bb57040d974bab2a4d12a89e4c61d968c558299a86297acf612d",
+    "timo4b-logo-uebersicht.svg": "53eb4d1a3c3703650bd6bd22d813a63cdb954c095089aff5527ed49b50f253c6",
+    "timo4b-mono-dark.png": "1618b344a98a6ff37d45e47bfdeb5a821857f9efcebb0db1d4ca3737ddf200c3",
+    "timo4b-mono-dark.svg": "5910641acaa3dc044d1c22479cd2a2b954bb9728d687422cf16bb43e7e4b458b",
+    "timo4b-mono-white.png": "7c22c78271b3d180156dcabd22f893668d0f93eab13d78a49100c789fdaccfb2",
+    "timo4b-mono-white.svg": "3b30a7adbeeff5dd64bd9a9cd88264afd3c34ccdf3f8b0960e3d6ee201a3dc76"
+  },
+  "domain": null,
+  "publicDeployment": false,
+  "compactSignApproval": "Nutzer bestätigt die Ergänzung eines weißen T mit go."
+}

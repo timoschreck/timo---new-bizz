@@ -1,0 +1,5 @@
+* text eol=lf
+*.png binary
+*.webp binary
+vendor/dir4b/** -text
+*.zip binary
